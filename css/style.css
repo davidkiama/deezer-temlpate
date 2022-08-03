@@ -14,12 +14,14 @@ body {
   font-family: sans-serif; }
 
 #container {
-  display: flex; }
+  display: flex;
+  color: #e8e6e9;
+  min-height: 100vh; }
 
 .sidebar {
   width: 30rem;
-  background-color: orange; }
+  background: #181821; }
 
 .main {
-  background-color: aqua;
+  background-color: #121215;
   flex-grow: 1; }
