@@ -61,6 +61,38 @@ body {
     font-weight: 900;
     font-size: 3.2rem; }
 
+.nav {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #5f5f62;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .nav__notification {
+    fill: #5f5f62;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 2rem; }
+  .nav__avatar {
+    height: 4rem;
+    width: 4rem; }
+
+.search {
+  display: flex;
+  color: #5f5f62;
+  flex: 1; }
+  .search__icon {
+    fill: currentColor;
+    height: 2rem;
+    width: 2rem; }
+  .search__input {
+    width: 80%;
+    margin-left: 1rem;
+    color: #e8e6e9;
+    font-size: 2rem;
+    background-color: #121215;
+    border: none;
+    outline: none; }
+
 .main {
   background-color: #121215;
   flex-grow: 1; }
