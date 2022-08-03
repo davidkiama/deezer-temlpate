@@ -19,8 +19,47 @@ body {
   min-height: 100vh; }
 
 .sidebar {
+  padding: 2rem;
   width: 30rem;
   background: #181821; }
+  .sidebar__links {
+    margin-top: 3rem; }
+  .sidebar__link {
+    font-size: 2.5rem;
+    margin: 1rem;
+    color: #e8e6e9;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    margin-bottom: 2rem; }
+    .sidebar__link--icon {
+      fill: currentColor;
+      height: 3rem;
+      width: 3rem; }
+    .sidebar__link--text {
+      fill: currentColor;
+      font-size: 2rem;
+      margin-left: 1rem; }
+  .sidebar__footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 5rem; }
+    .sidebar__footer span {
+      font-size: 1.8rem;
+      margin: 0.5rem;
+      color: #5f5f62; }
+
+.logo {
+  display: flex;
+  align-items: center; }
+  .logo__img {
+    height: 4rem;
+    margin-right: 1rem; }
+  .logo__name {
+    margin-left: 1rem;
+    font-weight: 900;
+    font-size: 3.2rem; }
 
 .main {
   background-color: #121215;
