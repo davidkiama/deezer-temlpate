@@ -20,7 +20,7 @@ body {
 
 .sidebar {
   padding: 2rem;
-  width: 30rem;
+  width: 28rem;
   background: #181821; }
   .sidebar__links {
     margin-top: 3rem; }
@@ -96,3 +96,21 @@ body {
 .main {
   background-color: #121215;
   flex-grow: 1; }
+
+.artists {
+  cursor: pointer;
+  margin-top: 4rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 5rem; }
+
+.artist {
+  width: 30rem; }
+  .artist__image {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+    object-position: center; }
