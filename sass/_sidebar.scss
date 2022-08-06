@@ -3,6 +3,8 @@
   width: 28rem;
   background: $color-navy;
 
+  position: relative;
+
   &__links {
     margin-top: 3rem;
   }
@@ -55,5 +57,64 @@
     margin-left: 1rem;
     font-weight: 900;
     font-size: 3.2rem;
+  }
+}
+
+.sidebar__content {
+  & .logo {
+    display: none;
+  }
+}
+
+.icon-menu {
+  display: none;
+  position: absolute;
+  top: 1.2rem;
+  left: 4rem;
+  & svg {
+    fill: $color-white;
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .icon-menu {
+    display: block;
+  }
+
+  .cancel {
+    left: 80%;
+  }
+
+  .sidebar {
+    padding: 0.5rem;
+    width: 8rem;
+    position: relative;
+
+    &__content {
+      & .logo {
+        display: block;
+      }
+
+      background-color: rgba($color-navy, 0.98);
+      z-index: 40;
+      position: absolute;
+      height: 100%;
+      padding-top: 1rem;
+      margin-top: -4rem;
+      top: 2rem;
+      transform: translateX(-20rem);
+    }
+  }
+
+  .logo {
+    &__img {
+      height: 3rem;
+    }
+
+    &__name {
+      display: none;
+    }
   }
 }
